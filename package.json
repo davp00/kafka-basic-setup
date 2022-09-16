@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "sender": "node ./src/messageSender.js",
+    "watcher": "node ./src/messageWatcher.js"
+  },
+  "dependencies": {
+    "delay": "^5.0.0",
+    "kafkajs": "^2.1.0"
+  }
+}
